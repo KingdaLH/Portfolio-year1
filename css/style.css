@@ -25,6 +25,7 @@ footer {
 }
 
 #skills {
+    border-radius: 20px;
     color: darkblue;
     width: 85vw;
     box-shadow: 10px 10px;
