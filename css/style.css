@@ -41,6 +41,10 @@ footer {
     margin: 30px auto;
 }
 
+ol {
+    background-color: lightgray;
+}
+
 #skills {
     border-radius: 20px;
     color: darkblue;
@@ -48,9 +52,26 @@ footer {
     box-shadow: 10px 10px;
 }
 
-.common {
+#skills ul {
+    background-color: lightgray;
+}
+
+.intro {
     border-radius: 20px;
     box-shadow: 10px 10px;
+}
+
+.foot {
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+}
+
+.foot ul {
+    background-color: lightgray;
+}
+
+.intro ol{
+    background-color: lightgray;
 }
 
 h1 {
