@@ -5,17 +5,21 @@
         <meta http-equiv="x-ua-compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
-        <title>Cesiana's portfolio</title>
+        <title>Cesiana's Portfolio</title>
     </head>
     <body>
         <header>
-            <h1>Cesiana's Portfolio</h1>
+            <nav>
+                <a href="#intro">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#foot">Socials</a>
+            </nav>
         </header>
 
-        <a name="top"></a>
-
-        <section class="intro">
+        <section class="intro" id="intro">
             <div class="container">
+                <h1>Cesiana's Portfolio</h1>
                 <img src="./image/Pasfoto.jpg" alt="pasfoto">
                 <h2>About me</h2>
 
@@ -26,18 +30,10 @@
                     around me.
                     I make games and software in code, both for uni and in my free time! :)
                 </p>
-
-                <h3>These are my biggest hobbies at the moment</h3>
-                <ol>
-                    <li>Storytelling</li>
-                    <li>Writing a book series</li>
-                    <li>Gaming</li>
-                    <li>Tabletop Roleplaying Games</li>
-                </ol>
             </div>
         </section>
 
-        <section id="skills">
+        <section class="skills" id="skills">
             <div class="container">
                 <h2>Skills</h2>
                 <p>
@@ -64,23 +60,47 @@
             </div>
         </section>
 
-        <footer class="foot">
-            <h2>Socials</h2>
+        <section class="hobbies" id="hobbies">
+            <div class="flex-container">
+                <h2>Hobbies</h2>
 
-            <ul>
-                <li>
-                    <a target="_blank" href="https://www.instagram.com/cesianasingularis/">Instagram</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/cesiana-poels-940052214/">Linkedin</a>
-                </li>
-                <li>
-                    <a href="https://www.twitch.com/the_horizone/">Twitch</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/CesianaHoriZone">Twitter</a>
-                </li>
-            </ul>
+                <div class="row">
+                    <div class="column">
+                        <figure>
+                            <img src="./image/Dice.jpg" alt="Dice">
+                            <figcaption>Tabletop Roleplaying Games</figcaption>
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure>
+                            <img src="./image/Writing.jpg" alt="Writing">
+                            <figcaption>Writing</figcaption>
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure>
+                            <img src="./image/Gaming.jpg" alt="Gaming">
+                            <figcaption>Gaming</figcaption>
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure>
+                            <img src="./image/Storytelling.jpg" alt="Storytelling">
+                            <figcaption>Storytelling</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="foot" id="foot">
+            <h2>Socials</h2>
+            <nav>
+                <a target="_blank" href="https://www.instagram.com/cesianasingularis/">Instagram</a>
+                <a href="https://www.linkedin.com/in/cesiana-poels-940052214/">Linkedin</a>
+                <a href="https://www.twitch.com/the_horizone/">Twitch</a>
+                <a href="https://twitter.com/CesianaHoriZone">Twitter</a>
+            </nav>
 
             <p>
                 <a href="#top">Back to top</a>

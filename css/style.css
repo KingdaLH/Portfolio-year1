@@ -8,6 +8,17 @@
     )
 }
 
+header {
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    background-image: url("/image/the_horizone_hero.jpeg");
+    background-size:cover;
+    background-position: center;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -31,6 +42,12 @@ section {
     width: 80vw;
     min-width: 100px;
     max-width: 2000px;
+    display:flex;
+    justify-content:space-between;
+}
+
+section div {
+    flex:1;
 }
 
 footer {
@@ -46,6 +63,13 @@ ol {
 }
 
 #skills {
+    border-radius: 20px;
+    color: darkblue;
+    width: 85vw;
+    box-shadow: 10px 10px;
+}
+
+#hobbies {
     border-radius: 20px;
     color: darkblue;
     width: 85vw;
@@ -74,11 +98,14 @@ ol {
     background-color: lightgray;
 }
 
-h1 {
+header h1 {
     font-size: 3em;
     text-align: center;
 }
 
+h1 {
+    text-align: center;
+}
 h2 {
     margin-top: 0;
 }
@@ -99,12 +126,32 @@ img {
     margin-right: auto;
     width: 25%;
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-fit: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    background-color: rgb(15,0,65);
+    color: rgb(244,220,43);
+}
+
+nav a:hover {
+    background-color: darkblue;
+    color: white;
 }
 
 a {
     color: darkblue;
     text-decoration: none;
+    background-color: lightgray;
+    margin: 10px;
 }
 
 a:hover {
@@ -113,4 +160,42 @@ a:hover {
 
 a:visited {
     color: black;
+}
+.flex-container {
+    display: block;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+.column{
+    flex: 33.33%;
+    padding: 5px;
+}
+#hobbies div {
+    flex:1;
+}
+#hobbies img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+@media (max-width: 500px) and (max-width: 767px){
+    body {
+        color: black;
+    }
+    #skills{
+        color: black;
+    }
+    nav a:hover {
+        background-color: black;
+    }
+}
+
+@media (max-width: 360px) {
+    nav {
+        flex-direction: column;
+    }
 }
