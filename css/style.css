@@ -14,13 +14,12 @@ header {
     flex-direction: column;
     align-items: center;
     font-weight: bold;
-    background-image: url("/image/the_horizone_hero.jpeg");
     background-size:cover;
     background-position: center;
 }
 
 body {
-    margin: 0;
+    margin : 0 auto;
     padding: 0;
     background-image: var(--gradient);
     background-size: 400%;
@@ -138,8 +137,6 @@ nav {
 nav a {
     flex: 1;
     text-align: center;
-    background-color: rgb(15,0,65);
-    color: rgb(244,220,43);
 }
 
 nav a:hover {
@@ -188,14 +185,21 @@ a:visited {
     }
     #skills{
         color: black;
+        flex-direction: column;
     }
     nav a:hover {
         background-color: black;
+    }
+    .row {
+        flex-direction: column;
+    }
+    nav {
+        flex-direction: column;
     }
 }
 
 @media (max-width: 360px) {
     nav {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
