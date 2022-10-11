@@ -158,6 +158,16 @@ a:hover {
 a:visited {
     color: lightyellow;
 }
+
+.toplink {
+    display: block;
+    text-align: center;
+}
+
+.toplink:hover {
+    background-color: darkblue;
+}
+
 .flex-container {
     display: block;
     justify-content: flex-start;
@@ -199,7 +209,22 @@ input[type="text"],
 input[type=email] {
     padding: 4px;
     border: 0;
+}
 
+#check {
+    margin: 10px;
+}
+
+button {
+    padding: 4px 14px;
+    border: 0;
+    cursor: pointer;
+    color: darkblue;
+    font-size: 1em;
+}
+button:hover {
+    background-color: darkblue;
+    color: white;
 }
 
 @media (max-width: 500px) and (max-width: 767px){
