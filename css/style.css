@@ -179,9 +179,24 @@ a:visited {
     height: 40vh;
     object-fit: cover;
 }
+
+.form {
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+}
+
+.formrule {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
 @media (max-width: 500px) and (max-width: 767px){
     body {
         color: black;
+    }
+    .formrule label {
+        display: block;
     }
     #skills{
         color: black;
