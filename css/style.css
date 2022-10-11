@@ -191,6 +191,17 @@ a:visited {
     margin-bottom: 4px;
 }
 
+input {
+    font-size: 1em;
+}
+
+input[type="text"],
+input[type=email] {
+    padding: 4px;
+    border: 0;
+
+}
+
 @media (max-width: 500px) and (max-width: 767px){
     body {
         color: black;
