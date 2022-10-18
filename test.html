@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cesiana's test</title>
+</head>
+
+<form action="https://docent.cmi.hr.nl/moora/frontend/send-mail.php" method="POST">
+    <div class="formrule">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text">
+    </div>
+    <div class="formrule">
+        <label for="city">City</label>
+        <input id="city" name="city" type="text">
+    </div>
+    <div class="formrule">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email">
+    </div>
+    <div class="formrule">
+        <label for="date">Date</label>
+        <input id="date" name="date" type="date">
+    </div>
+    <div class="formrule">
+        <label for="category">Category</label>
+        <input id="category" name="category" type="text">
+    </div>
+    <div class="formrule">
+        <label for="question">Question</label>
+        <input id="question" name="question" type="text">
+    </div>
+    <div class="button">
+        <button type="submit">Submit</button>
+    </div>
+    <div>
+        <label class="label" for="send-to">Stuur de mail naar</label>
+        <select id="send-to" name="send-to">
+            <option value="0">Antwan</option>
+            <option value="1">Bas</option>
+            <option value="2">Erik</option>
+            <option value="3">Martijn</option>
+        </select>
+    </div>
+</form>

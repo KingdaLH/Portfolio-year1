@@ -227,12 +227,9 @@ button:hover {
     color: white;
 }
 
-@media (max-width: 500px) and (max-width: 767px){
-    body {
-        color: black;
-    }
+@media (max-width: 800px){
     .formrule label {
-        display: block;
+        flex-direction: column;
     }
     #skills{
         color: black;
