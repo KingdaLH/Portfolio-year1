@@ -83,18 +83,14 @@ ol {
     border-radius: 20px;
     box-shadow: 10px 10px;
 }
+.sticky {
+    position: sticky;
+    top: 0;
+}
 
 .foot {
     border-radius: 20px;
     box-shadow: 10px 10px;
-}
-
-.foot ul {
-    background-color: lightgray;
-}
-
-.intro ol{
-    background-color: lightgray;
 }
 
 header h1 {
