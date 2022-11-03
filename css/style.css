@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+
 :root {
     --gradient: linear-gradient(
     45deg,
@@ -25,7 +27,7 @@ body {
     background-size: 400%;
     animation: bg-animation 20s infinite alternate;
     color: darkblue;
-    font-family: "Verdana";
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
 }
 
@@ -84,6 +86,7 @@ ol {
     box-shadow: 10px 10px;
 }
 .sticky {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
@@ -116,6 +119,7 @@ span {
 
 img {
     display: block;
+    border: 5px solid darkblue;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -145,10 +149,14 @@ a {
     text-decoration: none;
     background-color: lightgray;
     margin: 10px;
+    transform:scale(1);
+    transform-origin:center;
+    transition: all 0.4s ease-in-out;
 }
 
 a:hover {
     text-decoration: underline;
+    transform:scale(1.2);
 }
 
 a:visited {
@@ -161,6 +169,7 @@ a:visited {
 }
 
 .toplink:hover {
+    color: white;
     background-color: darkblue;
 }
 
@@ -203,6 +212,7 @@ a:visited {
 
 input {
     font-size: 1em;
+    margin-right : calc(50vw - 50px);
 }
 
 input[type="text"],
