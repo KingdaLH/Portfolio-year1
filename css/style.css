@@ -199,6 +199,7 @@ a:visited {
     display: flex;
     justify-content: space-between;
     margin-bottom: 4px;
+    width: 100%;
 }
 
 input {
@@ -227,27 +228,25 @@ button:hover {
     color: white;
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
     .formrule label {
         flex-direction: column;
     }
-    #skills{
+
+    #skills {
         color: black;
         flex-direction: column;
     }
+
     nav a:hover {
         background-color: black;
     }
+
     .row {
         flex-direction: column;
     }
+
     nav {
         flex-direction: column;
-    }
-}
-
-@media (max-width: 360px) {
-    nav {
-        flex-direction: row;
     }
 }
