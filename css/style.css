@@ -28,7 +28,7 @@ body {
     animation: bg-animation 20s infinite alternate;
     color: darkblue;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 2em;
 }
 
 @keyframes bg-animation {
@@ -126,12 +126,13 @@ img {
     width: 25%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    object-fit: cover;
+    object-fit: cover;;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: lightyellow;
 }
 
 nav a {
@@ -208,6 +209,10 @@ a:visited {
     justify-content: space-between;
     margin-bottom: 4px;
     width: 100%;
+}
+
+.formrule label{
+    min-width: 50vw;
 }
 
 input {
