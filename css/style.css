@@ -64,6 +64,7 @@ ol {
 }
 
 #skills {
+    display: flex;
     border-radius: 20px;
     color: darkblue;
     width: 85vw;
@@ -71,6 +72,7 @@ ol {
 }
 
 #hobbies {
+    display: flex;
     border-radius: 20px;
     color: darkblue;
     width: 85vw;
@@ -82,6 +84,7 @@ ol {
 }
 
 .intro {
+    display: flex;
     border-radius: 20px;
     box-shadow: 10px 10px;
 }
@@ -204,13 +207,15 @@ a:visited {
 .form {
     border-radius: 20px;
     box-shadow: 10px 10px;
+    display: flex;
+    padding-right: 100px;
 }
 
 .formrule {
     display: flex;
     justify-content: space-between;
     margin-bottom: 4px;
-    width: 100%;
+    width: 90%;
 }
 
 .formrule label{
@@ -268,7 +273,6 @@ button:hover {
     }
 
     #skills {
-        color: black;
         flex-direction: column;
     }
 
