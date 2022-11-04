@@ -118,7 +118,7 @@ span {
 }
 
 img {
-    display: block;
+    display: flex;
     border: 5px solid darkblue;
     border-radius: 50%;
     margin-left: auto;
@@ -126,7 +126,7 @@ img {
     width: 15vw;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    object-fit: cover;;
+    object-fit: cover;
 }
 
 nav {
@@ -194,9 +194,10 @@ a:visited {
     flex:1;
 }
 #hobbies img {
-    width: 100%;
+    width: 15vw;
     height: 40vh;
     object-fit: cover;
+    flex-shrink: 0;
 }
 
 .form {
@@ -246,14 +247,19 @@ button {
     color: darkblue;
     font-size: 1em;
 }
+
 button:hover {
     background-color: darkblue;
     color: white;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .formrule {
         flex-direction: column;
+    }
+
+    #hobbies img {
+        width: 40vw;
     }
 
     .checkbox label{
