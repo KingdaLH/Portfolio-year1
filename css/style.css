@@ -137,6 +137,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: lightyellow;
+    margin-bottom: 50px;
 }
 
 nav a {
@@ -287,4 +288,9 @@ button:hover {
     nav {
         flex-direction: column;
     }
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
 }
